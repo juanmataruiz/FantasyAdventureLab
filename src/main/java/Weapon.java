@@ -1,12 +1,12 @@
 public class Weapon {
 
-    private WeaponPower weaponPower;
+     WeaponType weaponType;
 
-    public Weapon(WeaponPower weaponPower){
-        this.weaponPower = weaponPower;
+    public Weapon(WeaponType weaponType){
+        this.weaponType = weaponType;
     }
 
     public int getValue() {
-        return this.weaponPower.getPower();
+        return this.weaponType.getPower();
     }
 }

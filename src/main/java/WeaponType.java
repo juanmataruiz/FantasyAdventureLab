@@ -1,4 +1,4 @@
-public enum WeaponPower {
+public enum WeaponType {
 
     SWORD(25),
     AXE(50),
@@ -6,7 +6,7 @@ public enum WeaponPower {
 
     private int power;
 
-    WeaponPower(int power){
+    WeaponType(int power){
         this.power = power;
     }
 

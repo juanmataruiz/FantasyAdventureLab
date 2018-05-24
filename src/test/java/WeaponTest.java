@@ -10,7 +10,6 @@ public class WeaponTest {
     @Before
     public void before(){
         weapon = new Weapon(WeaponType.AXE);
-
     }
 
     @Test

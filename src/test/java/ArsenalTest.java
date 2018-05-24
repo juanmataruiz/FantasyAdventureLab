@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class ArsenalTest {
 
@@ -16,4 +17,10 @@ public class ArsenalTest {
     public void arsenalHasACollectionOfWeapons(){
         assertEquals(3, arsenal.getNumberOfWeapons());
      }
+
+//     @Test
+//    public void canGetWeapon() {
+//        Weapon weapon = arsenal.getWeapon();
+//        assertNotNull(weapon);
+//     }
 }
